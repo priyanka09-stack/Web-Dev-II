@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(120deg, hsl(184, 67%, 56%), #1c94e3);
+    padding: 20px;
+    font-family: Arial;
+}
+h1{
+    text-align:center;
+    color:white;
+    margin:4px;
+}
+h2{
+    color:rgb(0, 132, 255);
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.eventform {
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+
+.form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+.form input[type="submit"] {
+    margin-top: 15px;
+    padding: 10px;
+    background: linear-gradient(120deg, hsl(184, 67%, 56%), #1c94e3);
+    color: white;
+    border: none;
+    border-radius:10px;
+}
+
+.form input[type="submit"]:hover{
+    padding:11px;
+    margin:17px 2px 2px 2px;
+}
+
+.events {
+    background-color: white;
+    padding: 15px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+.as {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  
+  
+}
+
+.as button {
+  width: 50%;
+  background: linear-gradient(120deg, hsl(184, 67%, 56%), #1c94e3);
+  padding:10px;
+  border-radius:10px;
+  margin:10px 2px 2px 2px ;
+  border:none;
+}
+
+.as button:hover{
+    padding:12px;
+    margin:12px 4px 4px 4px;
+
+}
+
+
+
+
+.dlt{
+    position: absolute;
+    top: 5px;
+    right:5px;
+    background-color: red;
+    color: white;
+    width:15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 12px
+}
+
+.card{
+  background:#c8d9f2;
+  color:hsl(0, 3%, 54%);
+  width: 200px;
+  position: relative;
+  padding:10px;
+  border-radius:8px;
+  margin-top:10px;
+  
+}
+
+.card h3{
+    color:black;
+    font-weight:bolder;
+}
+
+.card button{
+    background-color: #1c94e3;
+    padding:6px;
+    border:none;
+    margin:4px;
+    border-radius: 10px;;
+
+}
+
+option{
+    background-color: #1c94e3;
+    color:white;
+    border:1px solid #1c94e3;
+    border-radius:10px;
+
+}
+
+.card h3{
+  margin-bottom:5px;
+}
